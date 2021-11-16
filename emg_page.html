@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Spectral EMG Recording Eye Muscle</title>
+		<link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
+</head>
+<body>
+	<p class="emgtextpad">It was long perceived that acquiring surface EMG signals from the eye muscles is obsolete and almost not possible due to the presence of bigger muscles masking the orbit and the skull.
+
+As a result of this notion, implantable sensors that come in direct contact with the EMs (Extraocular Muscles) were the next option in line. Scientists developed loads of implantable force, strain, and tension gauges to record data from awake subjects to figure out the working dynamics of EMs which were very useful in furthering our understanding of the EMs.
+
+Although these methods have yielded great results, they require invasive intervention and might take a while to reveal useful results.
+
+I am here going to showcase a non-invasive system for acquiring and analyzing EMG signals from muscles of the eye. There are methods used in this system to minimize noise and stabilize interfaces. This will ensure a high Q factor and more accurate results.
+
+The system is broken down into the following parts: 1. swimming goggles (laughs permitted at your own risk haha) equipped with electrodes (Stainless Steel with no Zinc coating) for a stable interface to the skin as a dry electrode. The advantage of having the electrodes embedded in the swimming goggle is that we can now collect data from inside the orbit rather than the temporal area or the forehead. 2. Hand-soldered active bandpass filters (100Hz-500Hz), and there is no excuse for not making this a PCB, sorry! 3. Analog to Digital Converter. 4. Matlab is finally used to get serial port data and perform Fourier transformation of the sampled values. 
+
+3 volunteers, 2 strabismic, 1 normal:
+
+Here on out, I will present data acquired from the left and right eye of 3 volunteers. 
+
+volunteer 1: Duane syndrome in the left eye, right eye normal. 
+volunteer 2: Childhood injury to the right eye, the left eye more or less normal. 
+volunteer 3: normal eye coordination and movement.
+
+
+There are very useful insights that can be extracted from these results. First that the eye muscle EMG signal consists of a select number of frequencies within the filter bandpass frequencies that relay information about the force and position of the muscle depending on their magnitude in the frequency domain.
+
+It is also notable that in abnormal cases, the net increase in the magnitude of the contraction frequencies is not achieved despite the individual's intent to accomplish the latter. As a result, the eye does not turn.
+
+Next Steps:
+We will soon move towards a multichannel system for conducting concurrent recordings of 2-4 EMs.
+We are also aiming to create real-time screening of the signal (time & frequency) which can be used to identify muscle activity at each position of the globe. 
+</p>
+<div>
+	<ul>
+		<li><a href="img/volunteer1.jpg">
+                          <img src="img/volunteer1.jpg" alt="Image 1" class="emgPicsizerr" width=70%>
+                      </a>
+		</li>
+		<li><a href="img/volunteer2.jpg">
+                          <img src="img/volunteer2.jpg" alt="Image 1" class="emgPicsizerr" width=70%>
+                      </a>
+		</li>
+		<li><a href="img/volunteer3.jpg">
+                          <img src="img/volunteer3.jpg" alt="Image 1" class="emgPicsizerr" width=70%>
+                      </a>
+		</li>
+	</ul>
+</div>
+</body>
+</html>
