@@ -283,8 +283,8 @@ blockquote {
 /* Testimonials */
 #testimonials {
   color: white;
-  background-image: url(../img/cart_1.png);
-  background-size: cover;
+  background-image: url(../img/cart_1.jpg);
+  /*background-size: cover;*/
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
@@ -529,7 +529,8 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/cart_1.png);
+  background-image: url(../img/cart_1.jpg);
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
