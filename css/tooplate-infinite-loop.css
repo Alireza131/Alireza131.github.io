@@ -167,29 +167,34 @@ blockquote {
 @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
     background-size: cover;
+    height: 100vh;
   }
 }
 @media (min-height: 830px) {
   #infinite {
-    background-position: center -100px;
+    background-position: center;
+    height: 100vh;
   }
 }
 
 @media (min-height: 680px) and (max-height: 829px) {
   #infinite {
-    background-position: center -100px;
+    background-position: center;
+    height: 100vh;
   }
 }
 
 @media (min-height: 500px) and (max-height: 679px) {
   #infinite {
-    background-position: center -100px;
+    background-position: center;
+    height: 100vh;
   }
 }
 
 @media (max-height: 499px) {
   #infinite {
-    background-position: center -100px;
+    background-position: center;
+    height: 100vh;
   }
 }
 
