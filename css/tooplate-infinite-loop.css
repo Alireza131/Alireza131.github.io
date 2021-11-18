@@ -64,10 +64,11 @@ blockquote {
   padding-top: 20px;
   padding-bottom: 40px;
 }
+/*
 .tmbax{
 	padding-left: 33%;
 }
-
+*/
 .tm-text-primary {
   color: #37A;
 }
@@ -534,13 +535,14 @@ figure.effect-honey:hover h2 i {
   background-color: #001828;
   background-image: url(../img/cart_1.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
+	/*
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
   position: relative;
   padding-bottom: 50px;
-  padding-top: 100px;
+  padding-top: 100px;*/
 }
 
 .contact-item {
