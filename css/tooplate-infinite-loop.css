@@ -533,7 +533,8 @@ figure.effect-honey:hover h2 i {
   color: white;
   background-color: #001828;
   background-image: url(../img/cart_1.jpg);
-  background-size: 400%;
+  background-size: cover;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
