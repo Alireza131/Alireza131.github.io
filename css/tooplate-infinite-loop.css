@@ -5,9 +5,11 @@ Tooplate 2117 Infinite Loop
 https://www.tooplate.com/view/2117-infinite-loop
 
 */
+/*
 .middler{
 	padding-left:35%;
 }
+*/
 .emgtextpad{
 	padding:3% 3% 4% 3%;
 }
@@ -284,16 +286,15 @@ blockquote {
 #testimonials {
   color: white;
   background-image: url(../img/cart_1.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100%;
   position: relative;
 }
 
 @media (max-width: 991px) {
   #testimonials {
     background-image: url(../img/cart_1.jpg);
-    background-size: cover;
+    background-size: contain;
   }
 }
 
@@ -531,7 +532,7 @@ figure.effect-honey:hover h2 i {
   color: white;
   background-color: #001828;
   background-image: url(../img/cart_1.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
