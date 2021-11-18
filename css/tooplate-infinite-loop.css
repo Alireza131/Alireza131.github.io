@@ -295,7 +295,7 @@ blockquote {
 @media (max-width: 991px) {
   #testimonials {
     background-image: url(../img/cart_1.jpg);
-    background-size: contain;
+    background-size: 400%;
   }
 }
 
@@ -533,8 +533,7 @@ figure.effect-honey:hover h2 i {
   color: white;
   background-color: #001828;
   background-image: url(../img/cart_1.jpg);
-  background-size: cover;
-  height: 100vh;
+  background-size: 400%;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
