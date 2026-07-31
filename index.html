@@ -1,547 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>AliThriftsCo. : A Journey to Freedom</title>
-    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
-<!--
-Tooplate 2117 Infinite Loop
-https://www.tooplate.com/view/2117-infinite-loop
--->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio website for a biomedical engineering student and developer." />
+  <title>Alireza G | Biomedical Engineering</title>
 
-  </head>
-  <body>    
-    <!-- Hero section 
-	 Removed tm-parallax dependency to not get the nasty distance-->
-    <section id="infinite" class="text-white tm-font-big">
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
-        <div class="container">   
-          <div class="tm-next">
-              <a href="#infinite" class="navbar-brand">AliThriftsCo.</a>
-          </div>             
-            
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars navbar-toggler-icon"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#infinite">About</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#whatwedo">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-nav-link" href="#testimonials">Current Art</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#gallery">Next Gen</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#contact">Contact</a>
-              </li>                    
-            </ul>
-          </div>        
-        </div>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="logo" href="#top" aria-label="Go to top">AG<span>.</span></a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="assets/resume/Alireza_RESUME.pdf" target="_blank" rel="noopener">Resume</a>
       </nav>
-      
-      <div class="text-center tm-hero-text-container">
-        <div class="tm-hero-text-container-inner">
-            <h2 class="tm-hero-title">A journey to freedom..</h2>
-        </div>        
-      </div>
+    </div>
+  </header>
 
-      <div class="tm-next tm-intro-next">
-        <a href="#whatwedo" class="text-center tm-down-arrow-link">
-          <i class="fas fa-2x fa-arrow-down tm-down-arrow"></i>
-        </a>
-      </div>      
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Biomedical Engineering • Software • Product Development</p>
+          <h1>
+            Hi, I’m <span>Alireza</span>.<br />
+            I build practical technology for real-world problems.
+          </h1>
+          <p class="hero-text">
+            I enjoy prototyping and troubleshooting hardware and software solutions to build robust systems that improve healthcare.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="assets/resume/Alireza_RESUME.pdf" download>Download Resume</a>
+          </div>
+
+          <div class="hero-links" aria-label="Social links">
+            <a href="https://www.github.com/alireza131" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/galireza" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.facebook.com/Alithriftsco" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-frame">
+            <img src="assets/images/Alireza-portfolio-image.png" alt="Placeholder portrait" />
+          </div>
+          <div class="floating-card card-one">
+            <strong>Biomedical Engineering</strong>
+            <span>McMaster University</span>
+          </div>
+          <div class="floating-card card-two">
+            <strong>Open to Opportunities</strong>
+            <span>Co-op • Internship • Projects</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="whatwedo" class="tm-section-pad-top">
-      
+    <section class="section section-muted" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Biomedical Engineering student with experience in Entrepreneurship.</h2>
+        </div>
+
+        <div class="about-copy reveal">
+          <p>
+            I started my journey in biomedical engineering in fall 2018, and since then I have been exploring different avenues 
+            such as entrepreneurship, embedded systems, and medical imaging.
+          </p>
+          <p>
+            I have a strong interest in developing innovative solutions that address real-world challenges in healthcare.
+          </p>
+
+          <div class="quick-facts">
+            <div>
+              <span>Location</span>
+              <strong>Hamilton, Ontario</strong>
+            </div>
+            <div>
+              <span>Focus</span>
+              <strong>Healthcare Technology</strong>
+            </div>
+            <div>
+              <span>Availability</span>
+              <strong>Open to Opportunities</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
       <div class="container">
-
-            <div class="row tm-content-box"><!-- first row -->
-                <div class="col-lg-12 col-xl-12">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4 tm-section-title">Projects</h2>
-                        <p class="mb-4 tm-intro-text">
-						As with almost all problems, we need to have clear criteria to judge the state of the problem and transform qualitative measurements into quantitative values that can be compared and contrasted at an optimal resolution.
-                        </p>
-                    </div>
-                </div>
-
-            </div><!-- first row -->
-            
-            <div class="row tm-content-box"><!-- second row -->
-        		<div class="col-lg-1">
-                    <i class="fa fa-3x fa-american-sign-language-interpreting text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Modelling</h2>
-                        <p><a href="https://fb.watch/91ntBAzdWd/">
-						<img src="img/project1.png" width=40%>
-						</a>
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-lg-1">
-                    <i class="fa fa-3x fa-universal-access text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Spectral EMG sensing</h2>
-                        <p class="mb-4 tm-intro-text"><a href="emg_page.html">
-                          <img src="img/READ3.jpg" width=40%></p>
-						  </a>
-                    </div>
-                </div>
-
-            </div><!-- second row -->
-            
-            <div class="row tm-content-box tmbax"><!-- third row -->
-        		<div class="col-lg-1">
-                    <i class="fa fa-3x fa-eye text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Multi-Viewer</h2>
-                        <p class="mb-4 tm-intro-text"><a href="https://fb.watch/92z6Pc9EsG/">
-						<img src="img/multi.png" width=60%></a>
-					    </p> 
-                    </div>
-                </div>
-                
-                <!-- <div class="col-lg-1">
-                    <i class="fas fa-3x fa-users text-center tm-icon"></i>
-                </div>
-                <div class="col-lg-5">
-                    <div class="tm-intro-text-container">
-                      <h2 class="tm-text-primary mb-4">Social Work</h2>
-                        <p class="mb-4 tm-intro-text">
-                      You can change <a href="https://fontawesome.com/icons?d=gallery">Font Awesome icons</a> by either <b><em>fas or far</em></b> in the HTML codes. For Examples:<br>
-                      <em>&lt;i class=&quot;fas fa-users&quot;&gt;&lt;i class=&quot;far fa-chart-bar&quot;&gt;</em> </p>
-                          
-                          <div class="tm-continue">
-                            <a href="#testimonials" class="tm-intro-text tm-btn-primary">Details</a>
-                        </div>
-                    </div>
-                </div>-->
-
-            </div><!-- third row -->
-
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Featured Work</p>
+          <h2>Projects that demonstrate how I think and build.</h2>
+          <p>
+            Projects are chosen to show the area of focus and expertise.
+          </p>
         </div>
-      
-    </section>
-    
-    <section id="testimonials" class="tm-section-pad-top tm-parallax-2">      
-      <div class="container tm-testimonials-content">
-        <div class="row">
-          <div class="col-lg-12 tm-content-box">
-            <h2 class="text-white text-center mb-4 tm-section-title">Grand Project</h2>
-            <p class="mx-auto tm-section-desc text-center">
-                Great research and work done by Dr. Joel M Miller and Dr. Alan B Scott have led the path to precious discoveries in the treatment of Strabismus. Pharmacologic injection treatment of Strabismus has proven to yield better results than the old-fashioned muscle recession and/or transposition surgeries. 
-To increase efficacy and accuracy of the injection, EMG guided needle syringes are used to make sure the injection is done correctly and no interference is created with adjacent muscle and tissue.
-We believe that this breakthrough should be communicated with the rest of the world at a faster pace and technological improvements in the area of drug administration should advance to make these injections faster and more versatile so that more and more strabismic patients can benefit from them.
-              </p>
-			  <!--
-            <div class="mx-auto tm-gallery-container tm-gallery-container-2">
-              <div class="tm-testimonials-carousel">
-                <figure class="tm-testimonial-item">
-                  <img src="img/testimonial-img-01.jpg" alt="Image" class="img-fluid mx-auto">
-                  <blockquote>This background image includes a semi-transparent overlay layer. This section also has a parallax image effect.</blockquote>
-                  <figcaption>Catherine Win (Designer)</figcaption>
-                </figure>
 
-                <figure class="tm-testimonial-item">
-                  <img src="img/testimonial-img-02.jpg" alt="Image" class="img-fluid mx-auto">
-                  <blockquote>Testimonial section comes with carousel items. You can use Infinite Loop HTML CSS template for your websites.</blockquote>
-                  <figcaption>Dual Rocker (CEO)</figcaption>
-                </figure>
-
-                <figure class="tm-testimonial-item">
-                  <img src="img/testimonial-img-03.jpg" alt="Image" class="img-fluid mx-auto">
-                  <blockquote>Nulla finibus ligula nec tortor convallis tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.</blockquote>
-                  <figcaption>Sandar Soft (Marketing)</figcaption>
-                </figure>
-
-                <figure class="tm-testimonial-item">
-                  <img src="img/testimonial-img-04.jpg" alt="Image" class="img-fluid mx-auto">
-                  <blockquote>Curabitur rutrum pharetra lobortis. Pellentesque vehicula, velit quis eleifend fermentum, erat arcu aliquet neque.</blockquote>
-                  <figcaption>Oliva Htoo (Designer)</figcaption>
-                </figure>
-
-                <figure class="tm-testimonial-item">
-                  <img src="img/testimonial-img-02.jpg" alt="Image" class="img-fluid mx-auto">
-                  <blockquote>Integer sit amet risus et erat imperdiet finibus. Nam lacus nunc, vulputate id ex eget, euismod auctor augue.</blockquote>
-                  <figcaption>Jacob Joker (CTO)</figcaption>
-                </figure>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <img src="assets/images/webcam-eye-module.png" alt="Placeholder project image" />
+            <div class="project-content">
+              <div class="project-meta">
+                <span>Embedded Systems</span>
+                <span>2021</span>
               </div>
-            </div>-->
-          </div>
-        </div>
-      </div>
-      <div class="tm-bg-overlay"></div>
-    </section>
-    
-    <section id="gallery" class="tm-section-pad-top">
-      <div class="container tm-container-gallery">
-        <div class="row">
-          <div class="text-center col-12">
-              <h2 class="tm-text-primary tm-section-title mb-4">EMG-guided Pharmacologic Injection Treatment</h2>
-              <p class="mx-auto tm-section-desc">
-                Snapshots below are our outlook for an integrated system that can provide customized treatment for most cases of strabismus by safe administration of drugs to balance out muscle forces.
+              <h3>Dynamic Webcam Module</h3>
+              <p>
+                Designed and built a dynamic webcam module resembling the human eye, capable of tracking objects and adjusting focus in real-time. 
               </p>
-          </div>            
+              <div class="tags">
+                <span>ESP32</span>
+                <span>Embedded C</span>
+                <span>3D Printing</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.facebook.com/share/v/197T215Trn/">Case Study</a>
+                <a href="https://www.facebook.com/share/v/197T215Trn/">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <img src="assets/images/wallmount-roll-holder.png" alt="Placeholder project image" />
+            <div class="project-content">
+              <div class="project-meta">
+                <span>Product Design</span>
+                <span>2022</span>
+              </div>
+              <h3>Multi-Functional Roll Dispenser</h3>
+              <p>
+                Designed and manufactured a kitchen roll holder with built-in dispenser following the North American standards.
+              </p>
+              <div class="tags">
+                <span>CAD</span>
+                <span>Prototyping</span>
+                <span>Manufacturing</span>
+              </div>
+              <div class="project-links">
+                <a href="https://a.co/d/006QbFM7">Case Study</a>
+                <a href="https://a.co/d/006QbFM7">Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <img src="assets/images/Multi-viewer.png" alt="Placeholder project image" />
+            <div class="project-content">
+              <div class="project-meta">
+                <span>Biomedical Software</span>
+                <span>2026</span>
+              </div>
+              <h3>Biomedical Signal Analysis</h3>
+              <p>
+                Developed an extraocular EMG analyzer to detect eye movements and muscle activity non-invasively, providing insights into ocular health and neurological conditions.
+              </p>
+              <div class="tags">
+                <span>Python</span>
+                <span>MATLAB</span>
+                <span>Signal Processing</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.facebook.com/share/v/1BqBPmiucE/">Case Study</a>
+                <a href="https://www.instagram.com/Alithriftsco">Instagram</a>
+              </div>
+            </div>
+          </article>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="mx-auto tm-gallery-container">
-                    <div class="grid tm-gallery">
-                      <a href="img/Needle_emgguided.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/Needle_emgguided.jpg" alt="Image 1" class="img-fluid">
-                          <figcaption>
-                            <h2><i><span>Electrode Needle Syringe</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/Emg-electrode.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/Emg-electrode.jpg" alt="Image 2" class="img-fluid sizerr">
-                          <figcaption>
-                            <h2><i><span>EMG</span><br><span>Surface Electrode</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/fullsystem_assembly_pic1.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/fullsystem_assembly_pic1.jpg" alt="Image 3" class="img-fluid sizerr">
-                          <figcaption>
-                            <h2><i><span>Monitoring</span><br><span>System</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/filter_schematic.png">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/filter_schematic.png" alt="Image 4" class="img-fluid sizerr">
-                          <figcaption>
-                            <h2><i><span>Signal</span><br><span>Acquisition Filtering</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/filter-design.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/filter-design.jpg" alt="Image 5" class="img-fluid sizerr">
-                          <figcaption>
-                            <h2><i><span>Test-Case</span><br><span>Analysis</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-					 <!--
-                      <a href="img/gallery-img-06.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-06.jpg" alt="Image 6" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Just Above <span>The City</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-01.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-01.jpg" alt="Image 7" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Another <span>Exercise Time</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="img/gallery-img-02.jpg">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="img/gallery-tn-02.jpg" alt="Image 8" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Repeated <span>Image Spot</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>   -->
-                    </div>
-                </div>                
-            </div>        
+
+        <div class="section-action reveal">
+          <a class="btn btn-secondary" href="#projects">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and technologies I use to bring ideas to life.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <span class="skill-number">01</span>
+            <h3>Programming</h3>
+            <p>Python, C, MATLAB, JavaScript, HTML, CSS</p>
           </div>
+
+          <div class="skill-card reveal">
+            <span class="skill-number">02</span>
+            <h3>Engineering</h3>
+            <p>Embedded systems, signal processing, biomedical instrumentation</p>
+          </div>
+
+          <div class="skill-card reveal">
+            <span class="skill-number">03</span>
+            <h3>Prototyping</h3>
+            <p>Arduino, ESP32, Raspberry Pi, 3D printing, laser cutting</p>
+          </div>
+
+          <div class="skill-card reveal">
+            <span class="skill-number">04</span>
+            <h3>Tools</h3>
+            <p>Git, GitHub, Jupyter, CAD, VS Code</p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="tm-section-pad-top tm-parallax-2">
-    
-      <div class="container tm-container-contact">
-        
-        <div class="row">
-            
-            <div class="text-center col-12">
-                <h2 class="tm-section-title mb-4">Contact Us</h2>
-                <p class="mb-5">
-                  If you are interested in being a part of this project or any other business inquiries and partnerships, you may connect with us through the links below!
-                </p><br>
-            </div>
-            <!-- form for contact!!!
-            <div class="col-sm-12 col-md-6">
-              <form action="index.php" method="get">
-                <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
-                <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required />
-                <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
-                <button type="submit" class="btn tm-btn-submit">Submit</button>
-              </form>
-            </div>
-            -->
-            <div class="col-sm-12 col-md-6">
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>A few roles that show my growth and impact.</h2>
+        </div>
 
-                <div class="contact-item middler">
-                  <a rel="nofollow" href="https://alithriftsco.etsy.com" class="item-link">
-                      <i class="far fa-2x fa-star mr-4" aria-hidden="true"></i>
-                      <span class="mb-0">Etsy Shop</span>
-                  </a>              
-                </div>
-                
-                <div class="contact-item middler">
-                  <a rel="nofollow" href="mailto:alithriftsco@gmail.com" class="item-link">
-                      <i class="far fa-2x fa-envelope mr-4"></i>
-                      <span class="mb-0">alithriftsco@gmail.com</span>
-                  </a>              
-                </div>
-                
-                <div class="contact-item middler">
-                  <a rel="nofollow" href="https://www.facebook.com/alithriftsco" class="item-link">
-                      <i class="fa fa-2x fa-infinity mr-4"></i>
-                      <span class="mb-0">Meta</span>
-                  </a>              
-                </div>
-                <!--
-                <div class="contact-item">
-                  <a rel="nofollow" href="tel:0100200340" class="item-link">
-                      <i class="fas fa-2x fa-phone-square mr-4"></i>
-                      <span class="mb-0">255-662-5566</span>
-                  </a>              
-                </div>
-                -->
-                <div class="contact-item">&nbsp;</div>
-            
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2020–Present</div>
+            <div class="timeline-content">
+              <h3>Founder & Marketing Director</h3>
+              <p class="timeline-company">AliThriftsCo.</p>
+              <p>
+                Founded and managed a small business focused on selling custom bamboo kitchenware and home decor products. Raised awareness about eye misalignment and strabismus through social media content.
+              </p>
             </div>
-            
-            
-        </div><!-- row ending -->
-        
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2020</div>
+            <div class="timeline-content">
+              <h3>IBEHS 1P13 Teaching Assistant</h3>
+              <p class="timeline-company">McMaster University</p>
+              <p>
+                Assisted in teaching the Biomedical Engineering course, providing support to students in understanding complex concepts and conducting laboratory experiments.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2019</div>
+            <div class="timeline-content">
+              <h3>Independent Sales Representative</h3>
+              <p class="timeline-company">Canadian Property Stars</p>
+              <p>
+                Worked as an independent sales representative, promoting and selling property maintenance services to clients, demonstrating strong communication and negotiation skills.
+              </p>
+            </div>
+          </article>
+        </div>
       </div>
-
-      	<footer class="text-center small tm-footer">
-          <p class="mb-0">
-          Copyright &copy; ALITHRIFTSCO. 
-          
-          . <a rel="nofollow" href="https://www.alithrifts.tech" title="HTML templates">Design By A.G.</a></p>
-        </footer>
-
     </section>
-    
-    <script src="js/jquery-1.9.1.min.js"></script>     
-    <script src="slick/slick.min.js"></script>
-    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>     
-    <script src="js/bootstrap.min.js"></script> 
-    <script>
 
-      function getOffSet(){
-        var _offset = 450;
-        var windowHeight = window.innerHeight;
+    <section class="section section-muted">
+      <div class="container resume-banner reveal">
+        <div>
+          <p class="eyebrow">Resume</p>
+          <h2>Want the complete version of my experience?</h2>
+          <p>Feel free to check out my updated resume!</p>
+        </div>
+        <div class="resume-actions">
+          <a class="btn btn-primary" href="assets/resume/Alireza_RESUME.pdf" target="_blank" rel="noopener">View Resume</a>
+          <a class="btn btn-secondary" href="assets/resume/Alireza_RESUME.pdf" download>Download PDF</a>
+        </div>
+      </div>
+    </section>
 
-        if(windowHeight > 500) {
-          _offset = 400;
-        } 
-        if(windowHeight > 680) {
-          _offset = 300
-        }
-        if(windowHeight > 830) {
-          _offset = 210;
-        }
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something useful together.</h2>
+          <p>
+            I’m currently open to co-op, internship, and project opportunities. If you have a project or opportunity in mind, feel free to reach out!
+          </p>
 
-        return _offset;
-      }
+          <div class="contact-details">
+            <a href="mailto:ghorbaa@mcmaster.ca">ghorbaa@mcmaster.ca</a>
+            <span>Hamilton, Ontario, Canada</span>
+          </div>
+          <div class="social-list">
+            <a href="https://www.github.com/alireza131" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/galireza" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.facebook.com/Alithriftsco" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
 
-      function setParallaxPosition($doc, multiplier, $object){
-        var offset = getOffSet();
-        var from_top = $doc.scrollTop(),
-          bg_css = 'center ' +(multiplier * from_top - offset) + 'px';
-        $object.css({"background-position" : bg_css });
-      }
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
 
-      // Parallax function
-      // Adapted based on https://codepen.io/roborich/pen/wpAsm        
-      var background_image_parallax = function($object, multiplier, forceSet){
-        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
-        multiplier = 1 - multiplier;
-        var $doc = $(document);
-        // $object.css({"background-attatchment" : "fixed"});
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
 
-        if(forceSet) {
-          setParallaxPosition($doc, multiplier, $object);
-        } else {
-          $(window).scroll(function(){          
-            setParallaxPosition($doc, multiplier, $object);
-          });
-        }
-      };
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or opportunity." required></textarea>
+          </div>
 
-      var background_image_parallax_2 = function($object, multiplier){
-        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
-        multiplier = 1 - multiplier;
-        var $doc = $(document);
-        $object.css({"background-attachment" : "fixed"});
-        
-        $(window).scroll(function(){
-          if($(window).width() > 768) {
-            var firstTop = $object.offset().top,
-                pos = $(window).scrollTop(),
-                yPos = Math.round((multiplier * (firstTop - pos)) - 186);              
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-note">
+            This demo form opens the visitor’s email app.
+        </form>
+      </div>
+    </section>
+  </main>
 
-            var bg_css = 'center ' + yPos + 'px';
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="current-year"></span> Alireza Ghorbanzadeh. Built with HTML, CSS, and JavaScript.</p>
+      <a href="#">Back to top ↑</a>
+    </div>
+  </footer>
 
-            $object.css({"background-position" : bg_css });
-          } else {
-            $object.css({"background-position" : "center" });
-          }
-        });
-      };
-      
-      $(function(){
-        // Hero Section - Background Parallax
-        background_image_parallax($(".tm-parallax"), 0.3, false);
-        background_image_parallax_2($("#contact"), 0.80);   
-        background_image_parallax_2($("#testimonials"), 0.80);   
-        
-        // Handle window resize
-        window.addEventListener('resize', function(){
-          background_image_parallax($(".tm-parallax"), 0.30, true);
-        }, true);
-
-        // Detect window scroll and update navbar
-        $(window).scroll(function(e){          
-          if($(document).scrollTop() > 120) {
-            $('.tm-navbar').addClass("scroll");
-          } else {
-            $('.tm-navbar').removeClass("scroll");
-          }
-        });
-        
-        // Close mobile menu after click 
-        $('#tmNav a').on('click', function(){
-          $('.navbar-collapse').removeClass('show'); 
-        })
-
-        // Scroll to corresponding section with animation
-        $('#tmNav').singlePageNav({
-          'easing': 'easeInOutExpo',
-          'speed': 600
-        });        
-        
-        // Add smooth scrolling to all links
-        // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
-        $("a").on('click', function(event) {
-          if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
-
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 600, 'easeInOutExpo', function(){
-              window.location.hash = hash;
-            });
-          } // End if
-        });
-
-        // Pop up
-        $('.tm-gallery').magnificPopup({
-          delegate: 'a',
-          type: 'image',
-          gallery: { enabled: true }
-        });
-
-        $('.tm-testimonials-carousel').slick({
-          dots: true,
-          prevArrow: false,
-          nextArrow: false,
-          infinite: false,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          responsive: [
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 2
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 2
-              }
-            }, 
-            {
-              breakpoint: 480,
-              settings: {
-                  slidesToShow: 1
-              }                 
-            }
-          ]
-        });
-
-        // Gallery
-        $('.tm-gallery').slick({
-          dots: true,
-          infinite: false,
-          slidesToShow: 3,
-          slidesToScroll: 2,
-          responsive: [
-          {
-            breakpoint: 1199,
-            settings: {
-              slidesToShow: 4,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 991,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 767,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-        });
-      });
-    </script>
-  </body>
+  <script src="js/script.js"></script>
+</body>
 </html>
